@@ -71,6 +71,7 @@ Thumbs.db
 **/target/
 **/bin/
 **/logs/
+**/.mvn/
 
 # Flutter specific
 **/build/
