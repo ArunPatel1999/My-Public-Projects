@@ -67,12 +67,15 @@ Thumbs.db
 *.bak
 *.tmp
 
+
 # Spring Boot specific
 **/target/
 **/bin/
 **/logs/
 **/.mvn/
 **/.idea/
+**mvnw
+**mvnw.cmd
 
 # Flutter specific
 **/build/
