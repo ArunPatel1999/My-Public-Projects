@@ -1,5 +1,5 @@
 # Webchat
 
 ```
-This Project i am using Spring boot and websocket and created chating and video call application with frontend application
+In this project, I am using Spring Boot and WebSockets to create a chat and video call application with a frontend.
 ```
