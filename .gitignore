@@ -1,0 +1,92 @@
+# Ignore all files by default
+# *.*
+
+# # Allow certain file types
+# !*.java
+# !*.kt
+# !*.xml
+# !*.properties
+# !*.yml
+# !*.yaml
+# !*.html
+# !*.css
+# !*.js
+# !*.jsx
+# !*.ts
+# !*.tsx
+# !*.json
+# !*.dart
+
+# Ignore build and dependency directories
+**/build/
+**/out/
+**/dist/
+**/node_modules/
+**/.gradle/
+**/.idea/
+**/.vscode/
+**/.dart_tool/
+**/.flutter-plugins/
+**/.flutter-plugins-dependencies/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore IDE and editor-specific files
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.class
+*.war
+*.ear
+
+# Ignore generated files
+*.jar
+*.war
+*.zip
+*.gz
+*.tar
+*.rar
+*.7z
+*.bak
+*.swp
+*.tmp
+
+# Ignore environment and configuration files
+.env
+.env.*
+.idea/
+*.lock
+*.bak
+*.tmp
+
+# Spring Boot specific
+**/target/
+**/bin/
+**/logs/
+
+# Flutter specific
+**/build/
+**/.dart_tool/
+**/.flutter-plugins/
+**/.flutter-plugins-dependencies/
+
+# React and Angular specific
+**/node_modules/
+**/coverage/
+**/.next/
+**/.nuxt/
+**/dist/
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+*~ 

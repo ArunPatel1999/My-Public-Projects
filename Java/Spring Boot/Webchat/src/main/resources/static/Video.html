@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Acess</title>
+    <link rel="stylesheet" href="video.css">
+    
+	<script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    
+    <div>
+        <input type="submit" value="start" id="start" style="width: 500px; height: 100px;">
+        <input type="submit" value="watch" id="view" style="width: 500px; height: 100px;">
+    </div>
+
+    
+
+    <image id="image1" class="canvas" ></image>
+
+    <video id="videoElement" autoplay="true" width="700" height="500" hidden></video>
+    <canvas id="image" class="canvas" hidden ></canvas>
+
+    <script src="video.js"></script>
+
+</body>
+</html>
