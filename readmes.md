@@ -1,5 +1,5 @@
-# Android
-- [MovieApp-App](Android/MovieApp-App/README.md)
+# MovieApp
+- [MovieApp](MovieApp/README.md)
 
 # Full-Stack
 - [Angular And Spring Boot E-commerce](Full-Stack/Angular%20and%20Spring%20Boot%20E-commerce/README.md)
