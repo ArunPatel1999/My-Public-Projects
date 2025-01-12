@@ -129,6 +129,12 @@ Thumbs.db
 
 
 **/gradle/
-gradle.properties
-gradlew
-gradlew.bat
+**gradle.properties
+**gradlew
+**gradlew.bat
+
+**/gradle/
+**build.gradle
+**gradlew
+**gradlew.bat
+
