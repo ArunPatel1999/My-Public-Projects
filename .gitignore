@@ -95,3 +95,40 @@ Thumbs.db
 *.swp
 *.tmp
 *~ 
+
+
+# Ignore Android Studio project files
+**/.idea/
+**/.gradle/
+**/build/
+**/app/build/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+**/local.properties
+**/*.iml
+
+# Ignore specific files
+**/*.log
+**/*.apk
+**/*.lock
+**/*.keystore
+
+# Ignore OS-specific files
+**/.DS_Store
+**/.vscode/
+**/.env
+**/.cache/
+**/.settings/
+**/.metadata/
+**/.history/
+
+# Ignore Gradle cache files
+**/.gradle/
+**/.build-cache/
+
+
+**/gradle/
+gradle.properties
+gradlew
+gradlew.bat
