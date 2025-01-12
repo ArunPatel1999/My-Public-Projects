@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1> Upload Jar </h1>
+
+<form action="/upload" method="POST" enctype="multipart/form-data">
+
+Enter Jar Name : <input type="text" name="name"> <br>
+Enter Jar Port : <input type="number" name="port"> <br>
+upload Jar : <input type="file" name="jar"> <br>
+<input type="submit" value="upload">
+
+</form>
+
+<a href="/log.html">Log</a>
+
+ <div th:each="r : ${run}">
+ 	<p th:text="${r}">This Test</p>
+</div>
+</body>
+</html>
