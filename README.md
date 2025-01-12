@@ -2,6 +2,27 @@
 Welcome to the My-Public-Projects folder. Below are the available projects:
 # Projects
 
+- [Android](Android/)
+	<details>
+	<summary>Details</summary>
+
+	# Android
+	Welcome to the Android folder. Below are the available projects:
+	# Projects
+	
+	- [MovieApp-App](Android/MovieApp-App/)
+		<details>
+		<summary>Details</summary>
+	
+		# MovieApp
+		
+		```
+		In this project, I am using Andorid and java create MovieApp.
+		``` 
+		</details>
+	 
+	</details>
+
 - [Full-Stack](Full-Stack/)
 	<details>
 	<summary>Details</summary>
